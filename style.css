@@ -11,7 +11,7 @@ body {
 
 nav {
     height: 56px;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     display: flex;
     justify-content: space-between;
@@ -27,9 +27,13 @@ nav {
 }
 
 .nav-right {
-    width: 300px;
+    width: 20%;
     display: flex;
     justify-content: flex-end;
+}
+
+.nav-left {
+    width: 23%;
 }
 
 .nav-left svg {
@@ -39,6 +43,7 @@ nav {
     border-radius: 50%;
     margin: 0;
     cursor: pointer;
+    flex-shrink: 0;
 }
 
 .fb-logo {
@@ -65,7 +70,7 @@ nav {
 .nav-search input {
     background-color: #f0f2f5;
     height: 40px;
-    width: 250px;
+    flex: 1;
     border: 0;
     border-radius: 50px;
     padding-left: 35px;
@@ -305,10 +310,12 @@ nav {
 /* main center */
 .main-center {
     padding: 0 32px;
+    width: 700px;
+    min-width: 550px;
 }
 
 .container-stioies {
-    width: 700px;
+    
     padding-top: 8px;
     padding-bottom: 8px;
     display: flex;
@@ -658,7 +665,6 @@ a.btn-buttom-text {
 
 .caption-post {
     padding: 0 16px 12px 16px;
-    width: 700px;
 }
 
 .caption-post p {
@@ -677,7 +683,7 @@ a.btn-buttom-text {
 }
 
 .img-post-content {
-    width: 700px;
+    width: 100%;
     min-height: 500px;
     cursor: pointer;
     display: flex;
@@ -751,7 +757,7 @@ a.btn-buttom-text {
     align-content: center;
 }
 
-.icon-sticker-left a, .icon-sticker-right a {
+.icon-sticker-left a, .icon-sticker-right a, .responsive-open {
     text-decoration: none;
     color: rgb(128, 130, 134);
     font-size: 14px;
@@ -1000,11 +1006,16 @@ a.btn-buttom-text {
 
     .aside-right {
         width: 300;
-        min-width: 280px;
+        min-width: 220px;
     }
 
     .main-center {
         padding: 0 8px 0 16px;
+    }
+
+
+    .responsive-close-1 {
+        display: none;
     }
 
 }
@@ -1016,10 +1027,7 @@ a.btn-buttom-text {
 
     .container-main {
         justify-content: center;
-    }
-
-    .container-stioies, .img-post-content, .caption-post {
-        max-width: 660px;
+        margin-top: 8px;
     }
     
     .responsive-close {
@@ -1037,5 +1045,26 @@ a.btn-buttom-text {
     .nav-left, .nav-right {
         width: 20%;
         flex-shrink: 0;
+    }
+
+    nav {
+        overflow: hidden;
+    }
+
+    .img-post-content{
+        min-height: 100%;
+    }
+
+    .main-center {
+        margin: 0 8px;
+        padding: 0 8px;
+        width: 100vw;
+        min-width: 100vw;
+    }
+
+    .post-content {
+        margin-top: 4px;
+        margin-bottom: 12px;
+        width: 100%;
     }
 }
