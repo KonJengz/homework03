@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link data-default-icon="https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico?_nc_eui2=AeG9wa13BWovd8GPl8tuD0nxrSiY817De8atKJjzXsN7xkLGzMv4Bm_XwgGIZuG2jIMeEJKdanimcq_QCESttwN4" data-badged-icon="https://static.xx.fbcdn.net/rsrc.php/yD/r/UJj0tgk-RrT.ico?_nc_eui2=AeH61f6trFhuU1APF2XA2NorKl70C3VliBEqXvQLdWWIEQI3qubnmAMAWGEd82IE_LCIwY8rjYdD4Y6tGOiZtAEk" rel="shortcut icon" href="https://static.xx.fbcdn.net/rsrc.php/yT/r/aGT3gskzWBf.ico?_nc_eui2=AeG9wa13BWovd8GPl8tuD0nxrSiY817De8atKJjzXsN7xkLGzMv4Bm_XwgGIZuG2jIMeEJKdanimcq_QCESttwN4">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <svg viewBox="0 0 36 36" class="fb-logo" fill="currentColor" height="40" width="40"><path class="xe3v8dz" d="M13.651 35.471v-11.97H9.936V18h3.715v-2.37c0-6.127 2.772-8.964 8.784-8.964 1.138 0 3.103.223 3.91.446v4.983c-.425-.043-1.167-.065-2.081-.065-2.952 0-4.09 1.116-4.09 4.025V18h5.883l-1.008 5.5h-4.867v12.37a18.183 18.183 0 0 1-6.53-.399Z"></path></svg>
+            <div class="nav-search">
+                <input type="text" placeholder="ค้นหาบน Facebook:">
+                <div class="nav-icon-search">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#606770"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#606770" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-center">
+            <div class="nav-center-icon nav-center-icon-hover">
+                <div class="hover-icon active">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="#0866ff" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--primary-button-background)"><path d="M9.464 1.286C10.294.803 11.092.5 12 .5c.908 0 1.707.303 2.537.786.795.462 1.7 1.142 2.815 1.977l2.232 1.675c1.391 1.042 2.359 1.766 2.888 2.826.53 1.059.53 2.268.528 4.006v4.3c0 1.355 0 2.471-.119 3.355-.124.928-.396 1.747-1.052 2.403-.657.657-1.476.928-2.404 1.053-.884.119-2 .119-3.354.119H7.93c-1.354 0-2.471 0-3.355-.119-.928-.125-1.747-.396-2.403-1.053-.656-.656-.928-1.475-1.053-2.403C1 18.541 1 17.425 1 16.07v-4.3c0-1.738-.002-2.947.528-4.006.53-1.06 1.497-1.784 2.888-2.826L6.65 3.263c1.114-.835 2.02-1.515 2.815-1.977zM10.5 13A1.5 1.5 0 0 0 9 14.5V21h6v-6.5a1.5 1.5 0 0 0-1.5-1.5h-3z"></path></svg>
+                    <span class="tooltiptext">หน้าหลัก</span>
+                </div>
+            </div>
+            <div class="nav-center-icon nav-center-icon-hover">
+                <div class="hover-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--secondary-icon)"><path d="M10.996 8.132A1 1 0 0 0 9.5 9v4a1 1 0 0 0 1.496.868l3.5-2a1 1 0 0 0 0-1.736l-3.5-2z"></path><path d="M14.573 2H9.427c-1.824 0-3.293 0-4.45.155-1.2.162-2.21.507-3.013 1.31C1.162 4.266.817 5.277.655 6.477.5 7.634.5 9.103.5 10.927v.146c0 1.824 0 3.293.155 4.45.162 1.2.507 2.21 1.31 3.012.802.803 1.813 1.148 3.013 1.31C6.134 20 7.603 20 9.427 20h5.146c1.824 0 3.293 0 4.45-.155 1.2-.162 2.21-.507 3.012-1.31.803-.802 1.148-1.813 1.31-3.013.155-1.156.155-2.625.155-4.449v-.146c0-1.824 0-3.293-.155-4.45-.162-1.2-.507-2.21-1.31-3.013-.802-.802-1.813-1.147-3.013-1.309C17.866 2 16.397 2 14.573 2zM3.38 4.879c.369-.37.887-.61 1.865-.741C6.251 4.002 7.586 4 9.5 4h5c1.914 0 3.249.002 4.256.138.978.131 1.496.372 1.865.74.37.37.61.888.742 1.866.135 1.007.137 2.342.137 4.256 0 1.914-.002 3.249-.137 4.256-.132.978-.373 1.496-.742 1.865-.369.37-.887.61-1.865.742-1.007.135-2.342.137-4.256.137h-5c-1.914 0-3.249-.002-4.256-.137-.978-.132-1.496-.373-1.865-.742-.37-.369-.61-.887-.741-1.865C2.502 14.249 2.5 12.914 2.5 11c0-1.914.002-3.249.138-4.256.131-.978.372-1.496.74-1.865zM8 21.5a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2H8z"></path></svg>
+                    <span class="tooltiptext">วีดิโอ</span>
+                </div>
+            </div>
+            <div class="nav-center-icon nav-center-icon-hover">
+                <div class="hover-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--secondary-icon)"><path d="M1.588 3.227A3.125 3.125 0 0 1 4.58 1h14.84c1.38 0 2.597.905 2.993 2.227l.816 2.719a6.47 6.47 0 0 1 .272 1.854A5.183 5.183 0 0 1 22 11.455v4.615c0 1.355 0 2.471-.119 3.355-.125.928-.396 1.747-1.053 2.403-.656.657-1.475.928-2.403 1.053-.884.12-2 .119-3.354.119H8.929c-1.354 0-2.47 0-3.354-.119-.928-.125-1.747-.396-2.403-1.053-.657-.656-.929-1.475-1.053-2.403-.12-.884-.119-2-.119-3.354V11.5l.001-.045A5.184 5.184 0 0 1 .5 7.8c0-.628.092-1.252.272-1.854l.816-2.719zM10 21h4v-3.5a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5V21zm6-.002c.918-.005 1.608-.025 2.159-.099.706-.095 1.033-.262 1.255-.485.223-.222.39-.55.485-1.255.099-.735.101-1.716.101-3.159v-3.284a5.195 5.195 0 0 1-1.7.284 5.18 5.18 0 0 1-3.15-1.062A5.18 5.18 0 0 1 12 13a5.18 5.18 0 0 1-3.15-1.062A5.18 5.18 0 0 1 5.7 13a5.2 5.2 0 0 1-1.7-.284V16c0 1.442.002 2.424.1 3.159.096.706.263 1.033.486 1.255.222.223.55.39 1.255.485.551.074 1.24.094 2.159.1V17.5a2.5 2.5 0 0 1 2.5-2.5h3a2.5 2.5 0 0 1 2.5 2.5v3.498zM4.581 3c-.497 0-.935.326-1.078.802l-.815 2.72A4.45 4.45 0 0 0 2.5 7.8a3.2 3.2 0 0 0 5.6 2.117 1 1 0 0 1 1.5 0A3.19 3.19 0 0 0 12 11a3.19 3.19 0 0 0 2.4-1.083 1 1 0 0 1 1.5 0A3.2 3.2 0 0 0 21.5 7.8c0-.434-.063-.865-.188-1.28l-.816-2.72A1.125 1.125 0 0 0 19.42 3H4.58z"></path></svg>
+                    <span class="tooltiptext">Marketplace</span>
+                </div>
+            </div>
+            <div class="nav-center-icon nav-center-icon-hover">
+                <div class="hover-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--secondary-icon)"><path d="M12 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8zm-2 4a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"></path><path d="M.5 12C.5 5.649 5.649.5 12 .5S23.5 5.649 23.5 12 18.351 23.5 12 23.5.5 18.351.5 12zm2.21-2a9.537 9.537 0 0 0 0 3.993l.3.007A2 2 0 0 0 3 10h-.29zm.663-1.983a4 4 0 0 1 0 7.966 9.523 9.523 0 0 0 1.948 2.773A5.002 5.002 0 0 1 10 15.523h4a5.002 5.002 0 0 1 4.679 3.233 9.523 9.523 0 0 0 1.948-2.773 4 4 0 0 1 0-7.966A9.501 9.501 0 0 0 12 2.5a9.501 9.501 0 0 0-8.627 5.517zM21.5 12a9.55 9.55 0 0 0-.212-2.007l-.265.007H21a2 2 0 0 0-.01 4l.3-.007c.138-.643.21-1.31.21-1.993zM12 21.5a9.455 9.455 0 0 0 4.97-1.402A3 3 0 0 0 14 17.523h-4a3 3 0 0 0-2.97 2.575A9.456 9.456 0 0 0 12 21.5z"></path></svg>
+                    <span class="tooltiptext">กลุ่ม</span>
+                </div>
+            </div>
+            <div class="nav-center-icon nav-center-icon-hover responsive-close">
+                <div class="hover-icon">
+                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--secondary-icon)"><path d="M8 8a1 1 0 0 1 1 1v2h2a1 1 0 1 1 0 2H9v2a1 1 0 1 1-2 0v-2H5a1 1 0 1 1 0-2h2V9a1 1 0 0 1 1-1zm8 2a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0zm-2 4a1.5 1.5 0 1 0 3 0 1.5 1.5 0 0 0-3 0z"></path><path d="M.5 11a7 7 0 0 1 7-7h9a7 7 0 0 1 7 7v2a7 7 0 0 1-7 7h-9a7 7 0 0 1-7-7v-2zm7-5a5 5 0 0 0-5 5v2a5 5 0 0 0 5 5h9a5 5 0 0 0 5-5v-2a5 5 0 0 0-5-5h-9z"></path></svg>
+                    <span class="tooltiptext">Game</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="nav-right">
+            <div class="nav-right-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--primary-icon)"><path d="M12 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm8 0a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm8 0a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm0-8a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm8 16a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm8 0a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 17a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"></path></svg>
+                <span class="tooltiptext">เมนู</span>
+            </div>
+            <div class="nav-right-icon">
+                <svg viewBox="0 0 12 13" width="20" height="20" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--primary-icon)"><g fill-rule="evenodd" transform="translate(-450 -1073)"><path d="m459.603 1077.948-1.762 2.851a.89.89 0 0 1-1.302.245l-1.402-1.072a.354.354 0 0 0-.433.001l-1.893 1.465c-.253.196-.583-.112-.414-.386l1.763-2.851a.89.89 0 0 1 1.301-.245l1.402 1.072a.354.354 0 0 0 .434-.001l1.893-1.465c.253-.196.582.112.413.386M456 1073.5c-3.38 0-6 2.476-6 5.82 0 1.75.717 3.26 1.884 4.305.099.087.158.21.162.342l.032 1.067a.48.48 0 0 0 .674.425l1.191-.526a.473.473 0 0 1 .32-.024c.548.151 1.13.231 1.737.231 3.38 0 6-2.476 6-5.82 0-3.344-2.62-5.82-6-5.82"></path></g></svg>
+                <span class="tooltiptext">Messenger</span>
+            </div>
+            <div class="nav-right-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--primary-icon)"><path d="M3 9.5a9 9 0 1 1 18 0v2.927c0 1.69.475 3.345 1.37 4.778a1.5 1.5 0 0 1-1.272 2.295h-4.625a4.5 4.5 0 0 1-8.946 0H2.902a1.5 1.5 0 0 1-1.272-2.295A9.01 9.01 0 0 0 3 12.43V9.5zm6.55 10a2.5 2.5 0 0 0 4.9 0h-4.9z"></path></svg>
+                <span class="tooltiptext">แจ้งเตือน</span>
+            </div>
+            <div class="nav-right-icon">
+                <div class="nav-right-user">
+                    <div class="nav-right-user-img">
+                        <img src="images/1414796.jpg" alt="">
+                    </div>
+                    <div class="nav-right-arrow">
+                        <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color: var(--primary-icon);"><g fill-rule="evenodd" transform="translate(-448 -544)"><path fill-rule="nonzero" d="M452.707 549.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L456 552.586l-3.293-3.293z"></path></g></svg>
+                    </div>
+                    <span class="tooltiptext">บัญชี</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- content -->
+
+    <main class="container-main">
+        <aside class="aside-left">
+            <div class="nav-aside-left">
+                <div class="content-nav-aside-left">
+                    <img src="./images/1414796.jpg" alt="KonJeng">
+                    <div class="h4-aside-left">
+                        <h4>KonJeng Creative</h4>
+                    </div>
+                </div>
+
+                <div class="content-nav-aside-left">
+                    <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/A5UbHHnDt8X.png?_nc_eui2=AeFWn4C_CjA3V3tv3YhqsyYqSHvZZLqYliNIe9lkupiWI0NMdhqn8vWj52fs7H0IqRTFXCR-sWLBKnxbePfrNwEQ');background-position:0 -296px;background-size:37px 555px;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                    <div class="h4-aside-left">
+                        <h4>เพื่อน</h4>
+                    </div>
+                </div>
+
+                <div class="content-nav-aside-left">
+                    <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/A5UbHHnDt8X.png?_nc_eui2=AeFWn4C_CjA3V3tv3YhqsyYqSHvZZLqYliNIe9lkupiWI0NMdhqn8vWj52fs7H0IqRTFXCR-sWLBKnxbePfrNwEQ');background-position:0 -37px;background-size:37px 555px;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                    <div class="h4-aside-left">
+                        <h4>กลุ่ม</h4>
+                    </div>
+                </div>
+
+                <div class="content-nav-aside-left">
+                    <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/A5UbHHnDt8X.png?_nc_eui2=AeFWn4C_CjA3V3tv3YhqsyYqSHvZZLqYliNIe9lkupiWI0NMdhqn8vWj52fs7H0IqRTFXCR-sWLBKnxbePfrNwEQ');background-position:0 -444px;background-size:37px 555px;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                    <div class="h4-aside-left">
+                        <h4>ความทรงจำ</h4>
+                    </div>
+                </div>
+
+                <div class="content-nav-aside-left">
+                    <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/A5UbHHnDt8X.png?_nc_eui2=AeFWn4C_CjA3V3tv3YhqsyYqSHvZZLqYliNIe9lkupiWI0NMdhqn8vWj52fs7H0IqRTFXCR-sWLBKnxbePfrNwEQ');background-position:0 -185px;background-size:37px 555px;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                    <div class="h4-aside-left">
+                        <h4>ที่บันทึกไว้</h4>
+                    </div>
+                </div>
+
+                <div class="content-nav-aside-left">
+                    <i data-visualcompletion="css-img" class="" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/yj/r/A5UbHHnDt8X.png?_nc_eui2=AeFWn4C_CjA3V3tv3YhqsyYqSHvZZLqYliNIe9lkupiWI0NMdhqn8vWj52fs7H0IqRTFXCR-sWLBKnxbePfrNwEQ');background-position:0 -518px;background-size:37px 555px;width:36px;height:36px;background-repeat:no-repeat;display:inline-block"></i>
+                    <div class="h4-aside-left">
+                        <h4>วีดิโอ</h4>
+                    </div>
+                </div>
+
+                <div class="content-nav-aside-left">
+                    <svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor" aria-hidden="true" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--primary-icon)"><g fill-rule="evenodd" transform="translate(-448 -544)"><path fill-rule="nonzero" d="M452.707 549.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L456 552.586l-3.293-3.293z"></path></g></svg>
+                    <div class="h4-aside-left">
+                        <h4>ดูเพิ่มเติม</h4>
+                    </div>
+                </div>
+                <div class="line-bttom"></div>
+            </div>
+
+            <!--  -->
+            <div class="nav-aside-left">
+                <div class="shortcut">
+                    <p>ทางลัดของคุณ</p>
+                    <p class="aside-left-edit">แก้ไข</p>
+                </div>
+
+                <div class="content-nav-aside-left">
+                    <img src="./images/logokonjeng.png" alt="KonJeng">
+                    <div class="h4-aside-left">
+                        <h4>KonJeng Creative</h4>
+                    </div>
+                </div>
+
+                <div class="content-nav-aside-left">
+                    <img src="./images/ACS6346.jpg" alt="KonJeng">
+                    <div class="h4-aside-left">
+                        <h4>ACS6346</h4>
+                    </div>
+                </div>
+
+                <div class="content-nav-aside-left">
+                    <img src="./images/we are 360 view.jpg" alt="KonJeng">
+                    <div class="h4-aside-left">
+                        <h4>WE ARE 360 VIEW</h4>
+                    </div>
+                </div>
+
+                <div class="content-nav-aside-left">
+                    <img src="./images/konjengz.png" alt="KonJeng">
+                    <div class="h4-aside-left">
+                        <h4>KonJeng Design</h4>
+                    </div>
+                </div>
+
+                <div class="content-nav-aside-left">
+                    <svg viewBox="0 0 16 16" width="20" height="20" fill="currentColor" aria-hidden="true" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--primary-icon)"><g fill-rule="evenodd" transform="translate(-448 -544)"><path fill-rule="nonzero" d="M452.707 549.293a1 1 0 0 0-1.414 1.414l4 4a1 1 0 0 0 1.414 0l4-4a1 1 0 0 0-1.414-1.414L456 552.586l-3.293-3.293z"></path></g></svg>
+                    <div class="h4-aside-left">
+                        <h4>ดูเพิ่มเติม</h4>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer-aside-left">
+                <a href="#">ความเป็นส่วนตัว</a><span> · </span>
+                <a href="#">ข้อกำหนด</a><span> · </span>
+                <a href="#">ลงโฆษณา</a><span> · </span>
+                <a href="#">ตัวเลือกโฆษณา</a>
+                <a href="#"><i data-visualcompletion="css-img" class="x1b0d4993" style="background-image:url('https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/qKznYEhTEww.png?_nc_eui2=AeG6HLCxqHZHwmyHPW2bO2XL5n6mVydfhlDmfqZXJ1-GUEwQjNJ7IKJDmpGmc-PDzSu76nW6C-EeIAbBaO4Acytf');background-position:0 -832px;background-size:25px 949px;width:11px;height:11px;background-repeat:no-repeat;display:inline-block"></i></a>
+                <span> · </span>
+                <a href="#">คุกกี้</a><span> · </span>
+                <a href="#">เพิ่มเติม</a><span> · </span>
+                <span>Meta © 2024</span>
+            </footer>
+        </aside>
+
+        <section class="main-center">
+            <div class="container-stioies">
+                <div class="story-post">
+                    <div class="story-img">
+                        <img src="./images/IMG_0349.jpg" alt="">
+                    </div>
+                    <div class="add-story">
+                        <svg viewBox="0 0 20 20" width="20" height="20" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color:var(--always-white)"><g fill-rule="evenodd" transform="translate(-446 -350)"><g fill-rule="nonzero"><path d="M95 201.5h13a1 1 0 1 0 0-2H95a1 1 0 1 0 0 2z" transform="translate(354.5 159.5)"></path><path d="M102.5 207v-13a1 1 0 1 0-2 0v13a1 1 0 1 0 2 0z" transform="translate(354.5 159.5)"></path></g></g></svg>
+                    </div>
+                    <p>สร้างสตอรี่</p>
+                </div>
+
+                <div class="story-post-content">
+                    <div class="story-img-content">
+                        <img src="./images/IMG_3401.jpg" alt="">
+                    </div>
+                    <div class="icon-user-story">
+                        <img src="./images/logokonjeng.png" alt="KonJeng">
+                    </div>
+                    <div class="background-story"></div>
+                    <p>Ball Motionless</p>
+                </div>
+
+                <div class="story-post-content">
+                    <div class="story-img-content">
+                        <img src="./images/36346.jpeg" alt="">
+                    </div>
+                    <div class="icon-user-story">
+                        <img src="./images/346346.jpeg" alt="KonJeng">
+                    </div>
+                    <div class="background-story"></div>
+                    <p>Pozzible</p>
+                </div>
+
+                <div class="story-post-content">
+                    <div class="story-img-content">
+                        <img src="./images/2364375.jpg" alt="">
+                    </div>
+                    <div class="icon-user-story">
+                        <img src="./images/ball.jpeg" alt="KonJeng">
+                    </div>
+                    <div class="background-story"></div>
+                    <p>KonJeng Creative</p>
+                </div>
+
+                <div class="story-post-content">
+                    <div class="story-img-content">
+                        <img src="./images/33.jpeg" alt="">
+                    </div>
+                    <div class="icon-user-story">
+                        <img src="./images/jeng.jpeg" alt="KonJeng">
+                    </div>
+                    <div class="background-story"></div>
+                    <p>Thaweevit.k</p>
+                </div>
+
+                <div class="story-post-content">
+                    <div class="story-img-content">
+                        <img src="./images/IMG_3401.jpg" alt="">
+                    </div>
+                    <div class="icon-user-story">
+                        <img src="./images/logokonjeng.png" alt="KonJeng">
+                    </div>
+                    <div class="background-story"></div>
+                    <p>Ball Motionless</p>
+                </div>
+            </div>
+
+            <!-- post content -->
+            <div class="post-content">
+                <div class="btn-post">
+                    <div class="icon-user">
+                        <img src="./images/1414796.jpg" alt="KonJeng">
+                    </div>
+                    <a href="#">คุณคิดอะไรอยู่ KonJeng Creative</a>
+                </div>
+                <div class="line-bttom"></div>
+                <div class="container-btn-buttom-post">
+                    <div class="btn-buttom-post">
+                        <a href="#">
+                            <img height="24" width="24" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yE/r/epGAMnVkMsy.png?_nc_eui2=AeFAn05cUWsu_Lr6cJ-FHNQ7LvvaxKiLzcEu-9rEqIvNwdpJq9hokIrHkX4wb5jfyw9tIISXXpfAVPBK_Hrf-q8I">
+                        </a>
+                        <a class="btn-buttom-text" href="#">วิดิโอถ่ายทอดสด</a>
+                    </div>
+                    <div class="btn-buttom-post">
+                        <a href="#">
+                            <img height="24" width="24" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/yQ/r/74AG-EvEtBm.png?_nc_eui2=AeGm1PPjnT0Jaytt_FkRpiEijLWb3nZ8TcaMtZvednxNxrtNB_IXP9d8J0Ps1jGgvs5b-skQ6tEHEI6Rmb_52Dbl">
+                        </a>
+                        <a class="btn-buttom-text" href="#">รูปภาพ/วิดีโอ</a>
+                    </div>
+                    <div class="btn-buttom-post">
+                        <a href="#">
+                            <img height="24" width="24" alt="" class="xz74otr" referrerpolicy="origin-when-cross-origin" src="https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/_RWOIsUgWGL.png?_nc_eui2=AeF698HVrBbr4XP5OGm6IVLvpRYQ3zWJHxilFhDfNYkfGHHHPq9FoL7-nPVx-FZb9U1r-UX_gpR8GJfJuei5413b">
+                        </a>
+                        <a class="btn-buttom-text" href="#">ความรู้สึก/กิจกรรม</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- content post -->
+            <div class="main-post-content">
+                <div class="head-post">
+                    <div class="head-post-icon">
+                        <div class="online-active ">
+                            <div class="icon-user-friend">
+                                <img src="./images/3453453529.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="con-name-detail">
+                            <div class="name-user-post">
+                                <a href="#"><span>Tony stark</span></a>
+                                <span class="tag-add">อยู่ที่</span>
+                                <a href="#"><span>Assumption College Sriracha</span></a>
+                                <span><svg viewBox="0 0 12 13" width="12" height="12" fill="currentColor" title="บัญชีที่ตรวจสอบยืนยันแล้ว" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: rgb(8, 102, 255);"><title>บัญชีที่ตรวจสอบยืนยันแล้ว</title><g fill-rule="evenodd" transform="translate(-98 -917)"><path d="m106.853 922.354-3.5 3.5a.499.499 0 0 1-.706 0l-1.5-1.5a.5.5 0 1 1 .706-.708l1.147 1.147 3.147-3.147a.5.5 0 1 1 .706.708m3.078 2.295-.589-1.149.588-1.15a.633.633 0 0 0-.219-.82l-1.085-.7-.065-1.287a.627.627 0 0 0-.6-.603l-1.29-.066-.703-1.087a.636.636 0 0 0-.82-.217l-1.148.588-1.15-.588a.631.631 0 0 0-.82.22l-.701 1.085-1.289.065a.626.626 0 0 0-.6.6l-.066 1.29-1.088.702a.634.634 0 0 0-.216.82l.588 1.149-.588 1.15a.632.632 0 0 0 .219.819l1.085.701.065 1.286c.014.33.274.59.6.604l1.29.065.703 1.088c.177.27.53.362.82.216l1.148-.588 1.15.589a.629.629 0 0 0 .82-.22l.701-1.085 1.286-.064a.627.627 0 0 0 .604-.601l.065-1.29 1.088-.703a.633.633 0 0 0 .216-.819"></path></g></svg></span>
+                            </div>
+                            <div class="detail-post-head">
+                                <a href="#">6 ชม.</a>
+                                <span> · </span>
+                                <!-- <a class="location-post" href="#">6 ชม.</a>
+                                <span class="location-post"> · </span> -->
+                                <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor" title="แชร์กับ สาธารณะ" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: rgb(118, 121, 125);"><title>แชร์กับ สาธารณะ</title><g fill-rule="evenodd" transform="translate(-448 -544)"><g><path d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434" transform="translate(354 143.5)"></path><path d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096" transform="translate(354 143.5)"></path><path fill-rule="nonzero" d="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z" transform="translate(354 143.5)"></path></g></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="head-close">
+                        <div class="etc-svg-head">     
+                            <svg viewBox="0 0 20 20" width="36" height="36" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: #888a90;"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg>
+                        </div>
+                        <a href="#">
+                            <i class="x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/Yyc0dvqDgn-.png?_nc_eui2=AeEuA2Oh7a0WoxSF_MqxOTRf55FqzhOPCPXnkWrOE48I9ZsEmJWKBptz5ENPZGlDxsmteEthSHb4XY4cyayoX21_&quot;); background-position: 0px -473px; background-size: 25px 957px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="caption-post">
+                    <p>เจอกันครับ <a href="#" class="tag-in-caption">#6346Reunion67</a></p>
+                </div>
+                <div class="img-post-content">
+                    <div class="img-post-style-1">
+                        <img src="./images/reunion acs.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="icon-sticker">
+                    <div class="icon-sticker-left">
+                        <div class="sticker-like-love">
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.5'/%3E%3Cpath d='M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.992 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z' fill='%23fff'/%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(90 .0005 8) scale(7.99958)'%3E%3Cstop offset='.5618' stop-color='%230866FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%230866FF' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5257 10.9237) scale(10.1818)'%3E%3Cstop offset='.3143' stop-color='%2302ADFC'/%3E%3Cstop offset='1' stop-color='%2302ADFC' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3989' y1='2.3999' x2='13.5983' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2302ADFC'/%3E%3Cstop offset='.5' stop-color='%230866FF'/%3E%3Cstop offset='1' stop-color='%232B7EFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9963 8c0 4.4179-3.5811 7.9993-7.9986 7.9993-4.4176 0-7.9987-3.5814-7.9987-7.9992 0-4.4179 3.5811-7.9992 7.9987-7.9992 4.4175 0 7.9986 3.5813 7.9986 7.9992Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M7.9996 5.9081c-.3528-.8845-1.1936-1.507-2.1748-1.507-1.4323 0-2.4254 1.328-2.4254 2.6797 0 2.2718 2.3938 4.0094 4.0816 5.1589.3168.2157.7205.2157 1.0373 0 1.6878-1.1495 4.0815-2.8871 4.0815-5.159 0-1.3517-.993-2.6796-2.4254-2.6796-.9811 0-1.822.6225-2.1748 1.507Z' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23E11731' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23E11731' stop-opacity='.1'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3986' y1='2.4007' x2='13.5975' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FF74AE'/%3E%3Cstop offset='.5001' stop-color='%23FA2E3E'/%3E%3Cstop offset='1' stop-color='%23FF5758'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.001.0009h15.9992v15.9984H-.001z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9972 7.9996c0 4.418-3.5815 7.9996-7.9996 7.9996-4.418 0-7.9996-3.5816-7.9996-7.9996S3.5796 0 7.9976 0c4.4181 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M15.9972 7.9996c0 4.418-3.5815 7.9996-7.9996 7.9996-4.418 0-7.9996-3.5816-7.9996-7.9996S3.5796 0 7.9976 0c4.4181 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.8'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.6144 10.8866c.159-1.8461 1.127-2.887 2.382-2.887 1.2551 0 2.2231 1.0418 2.3822 2.887.1591 1.8461-.7342 3.1127-2.3821 3.1127-1.648 0-2.5412-1.2666-2.3821-3.1127Z' fill='%234B280E'/%3E%3Cellipse cx='11.1978' cy='5.6997' rx='1.3999' ry='1.6999' fill='%231C1C1D'/%3E%3Cellipse cx='4.7979' cy='5.6997' rx='1.3999' ry='1.6999' fill='%231C1C1D'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.3528 3.166a1.4744 1.4744 0 0 0-1.8591-.3279.4.4 0 1 1-.3976-.6941c.9527-.5457 2.1592-.333 2.8678.5056a.4.4 0 0 1-.6111.5163ZM5.4998 2.8381a1.4744 1.4744 0 0 0-1.859.3278.4.4 0 0 1-.6111-.5162c.7085-.8387 1.915-1.0514 2.8677-.5057a.4.4 0 0 1-.3976.6941Z' fill='%23E0761A'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23FF5758' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FF5758' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5262 10.9226) scale(10.1818)'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23FFF287' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3979' y1='2.3999' x2='13.5973' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23F68628'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.002 0h15.9992v15.9992H-.002z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                        </div>
+                        <a href="#">คุณ และ คนอื่นๆ อีก <span>99</span> คน</a>
+                    </div>
+                    <div class="icon-sticker-right">
+                        <a href="#"><span>229</span> ความคิดเห็น</a>
+                        <a href="#">แชร์ <span>15</span> ครั้ง</a>
+                    </div>
+                </div>
+                <div class="buttom-content">
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -739px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">ถูกใจ</span>
+                    </div>
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -550px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">แสดงความคิดเห็น</span>
+                    </div>
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -886px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">แชร์</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- content 2 -->
+            <div class="main-post-content">
+                <div class="head-post">
+                    <div class="head-post-icon">
+                        <div class="line-blue">
+                            <div class="icon-user-friend">
+                                <img src="./images/ball.jpeg" alt="">
+                            </div>
+                        </div>
+                        <div class="con-name-detail">
+                            <div class="name-user-post">
+                                <a href="#"><span>Ball Motionless</span></a>
+                                <span class="tag-add">อยู่ที่</span>
+                                <a href="#"><span>The Emerald Hotel</span></a>
+                                <span><svg viewBox="0 0 12 13" width="12" height="12" fill="currentColor" title="บัญชีที่ตรวจสอบยืนยันแล้ว" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: rgb(8, 102, 255);"><title>บัญชีที่ตรวจสอบยืนยันแล้ว</title><g fill-rule="evenodd" transform="translate(-98 -917)"><path d="m106.853 922.354-3.5 3.5a.499.499 0 0 1-.706 0l-1.5-1.5a.5.5 0 1 1 .706-.708l1.147 1.147 3.147-3.147a.5.5 0 1 1 .706.708m3.078 2.295-.589-1.149.588-1.15a.633.633 0 0 0-.219-.82l-1.085-.7-.065-1.287a.627.627 0 0 0-.6-.603l-1.29-.066-.703-1.087a.636.636 0 0 0-.82-.217l-1.148.588-1.15-.588a.631.631 0 0 0-.82.22l-.701 1.085-1.289.065a.626.626 0 0 0-.6.6l-.066 1.29-1.088.702a.634.634 0 0 0-.216.82l.588 1.149-.588 1.15a.632.632 0 0 0 .219.819l1.085.701.065 1.286c.014.33.274.59.6.604l1.29.065.703 1.088c.177.27.53.362.82.216l1.148-.588 1.15.589a.629.629 0 0 0 .82-.22l.701-1.085 1.286-.064a.627.627 0 0 0 .604-.601l.065-1.29 1.088-.703a.633.633 0 0 0 .216-.819"></path></g></svg></span>
+                            </div>
+                            <div class="detail-post-head">
+                                <a href="#">6 ชม.</a>
+                                <span> · </span>
+                                <!-- <a class="location-post" href="#">6 ชม.</a>
+                                <span class="location-post"> · </span> -->
+                                <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor" title="แชร์กับ สาธารณะ" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: rgb(118, 121, 125);"><title>แชร์กับ สาธารณะ</title><g fill-rule="evenodd" transform="translate(-448 -544)"><g><path d="M109.5 408.5c0 3.23-2.04 5.983-4.903 7.036l.07-.036c1.167-1 1.814-2.967 2-3.834.214-1 .303-1.3-.5-1.96-.31-.253-.677-.196-1.04-.476-.246-.19-.356-.59-.606-.73-.594-.337-1.107.11-1.954.223a2.666 2.666 0 0 1-1.15-.123c-.007 0-.007 0-.013-.004l-.083-.03c-.164-.082-.077-.206.006-.36h-.006c.086-.17.086-.376-.05-.529-.19-.214-.54-.214-.804-.224-.106-.003-.21 0-.313.004l-.003-.004c-.04 0-.084.004-.124.004h-.037c-.323.007-.666-.034-.893-.314-.263-.353-.29-.733.097-1.09.28-.26.863-.8 1.807-.22.603.37 1.166.667 1.666.5.33-.11.48-.303.094-.87a1.128 1.128 0 0 1-.214-.73c.067-.776.687-.84 1.164-1.2.466-.356.68-.943.546-1.457-.106-.413-.51-.873-1.28-1.01a7.49 7.49 0 0 1 6.524 7.434" transform="translate(354 143.5)"></path><path d="M104.107 415.696A7.498 7.498 0 0 1 94.5 408.5a7.48 7.48 0 0 1 3.407-6.283 5.474 5.474 0 0 0-1.653 2.334c-.753 2.217-.217 4.075 2.29 4.075.833 0 1.4.561 1.333 2.375-.013.403.52 1.78 2.45 1.89.7.04 1.184 1.053 1.33 1.74.06.29.127.65.257.97a.174.174 0 0 0 .193.096" transform="translate(354 143.5)"></path><path fill-rule="nonzero" d="M110 408.5a8 8 0 1 1-16 0 8 8 0 0 1 16 0zm-1 0a7 7 0 1 0-14 0 7 7 0 0 0 14 0z" transform="translate(354 143.5)"></path></g></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="head-close">
+                        <div class="etc-svg-head">     
+                            <svg viewBox="0 0 20 20" width="36" height="36" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: #888a90;"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg>
+                        </div>
+                        <a href="#">
+                            <i class="x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/Yyc0dvqDgn-.png?_nc_eui2=AeEuA2Oh7a0WoxSF_MqxOTRf55FqzhOPCPXnkWrOE48I9ZsEmJWKBptz5ENPZGlDxsmteEthSHb4XY4cyayoX21_&quot;); background-position: 0px -473px; background-size: 25px 957px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="caption-post">
+                    <p>"ข้าวแช่" คลายร้อนชื่นใจ <a href="#" class="tag-in-caption">#โรงแรมดิเอมเมอรัลด์</a></p>
+                </div>
+                <div class="img-post-content">
+                    <div class="img-post-style-1">
+                        <img src="./images/khaochae.jpeg" alt="">
+                    </div>
+                    <div class="img-post-style-3">
+                        <img src="./images/khaochae2.jpeg" alt="">
+                        <img src="./images/khaochae3.jpeg" alt="">
+                        <img src="./images/khaochae4.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="icon-sticker">
+                    <div class="icon-sticker-left">
+                        <div class="sticker-like-love">
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.5'/%3E%3Cpath d='M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.992 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z' fill='%23fff'/%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(90 .0005 8) scale(7.99958)'%3E%3Cstop offset='.5618' stop-color='%230866FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%230866FF' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5257 10.9237) scale(10.1818)'%3E%3Cstop offset='.3143' stop-color='%2302ADFC'/%3E%3Cstop offset='1' stop-color='%2302ADFC' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3989' y1='2.3999' x2='13.5983' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2302ADFC'/%3E%3Cstop offset='.5' stop-color='%230866FF'/%3E%3Cstop offset='1' stop-color='%232B7EFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9963 8c0 4.4179-3.5811 7.9993-7.9986 7.9993-4.4176 0-7.9987-3.5814-7.9987-7.9992 0-4.4179 3.5811-7.9992 7.9987-7.9992 4.4175 0 7.9986 3.5813 7.9986 7.9992Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M7.9996 5.9081c-.3528-.8845-1.1936-1.507-2.1748-1.507-1.4323 0-2.4254 1.328-2.4254 2.6797 0 2.2718 2.3938 4.0094 4.0816 5.1589.3168.2157.7205.2157 1.0373 0 1.6878-1.1495 4.0815-2.8871 4.0815-5.159 0-1.3517-.993-2.6796-2.4254-2.6796-.9811 0-1.822.6225-2.1748 1.507Z' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23E11731' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23E11731' stop-opacity='.1'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3986' y1='2.4007' x2='13.5975' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FF74AE'/%3E%3Cstop offset='.5001' stop-color='%23FA2E3E'/%3E%3Cstop offset='1' stop-color='%23FF5758'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.001.0009h15.9992v15.9984H-.001z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9972 7.9996c0 4.418-3.5815 7.9996-7.9996 7.9996-4.418 0-7.9996-3.5816-7.9996-7.9996S3.5796 0 7.9976 0c4.4181 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M15.9972 7.9996c0 4.418-3.5815 7.9996-7.9996 7.9996-4.418 0-7.9996-3.5816-7.9996-7.9996S3.5796 0 7.9976 0c4.4181 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.8'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.6144 10.8866c.159-1.8461 1.127-2.887 2.382-2.887 1.2551 0 2.2231 1.0418 2.3822 2.887.1591 1.8461-.7342 3.1127-2.3821 3.1127-1.648 0-2.5412-1.2666-2.3821-3.1127Z' fill='%234B280E'/%3E%3Cellipse cx='11.1978' cy='5.6997' rx='1.3999' ry='1.6999' fill='%231C1C1D'/%3E%3Cellipse cx='4.7979' cy='5.6997' rx='1.3999' ry='1.6999' fill='%231C1C1D'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.3528 3.166a1.4744 1.4744 0 0 0-1.8591-.3279.4.4 0 1 1-.3976-.6941c.9527-.5457 2.1592-.333 2.8678.5056a.4.4 0 0 1-.6111.5163ZM5.4998 2.8381a1.4744 1.4744 0 0 0-1.859.3278.4.4 0 0 1-.6111-.5162c.7085-.8387 1.915-1.0514 2.8677-.5057a.4.4 0 0 1-.3976.6941Z' fill='%23E0761A'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23FF5758' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FF5758' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5262 10.9226) scale(10.1818)'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23FFF287' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3979' y1='2.3999' x2='13.5973' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23F68628'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.002 0h15.9992v15.9992H-.002z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                        </div>
+                        <a href="#">คุณ และ คนอื่นๆ อีก <span>327</span> คน</a>
+                    </div>
+                    <div class="icon-sticker-right">
+                        <a href="#"><span>148</span> ความคิดเห็น</a>
+                        <a href="#">แชร์ <span>74</span> ครั้ง</a>
+                    </div>
+                </div>
+                <div class="buttom-content">
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -739px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">ถูกใจ</span>
+                    </div>
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -550px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">แสดงความคิดเห็น</span>
+                    </div>
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -886px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">แชร์</span>
+                    </div>
+                </div>
+
+                <!-- comment -->
+            </div>
+
+            <!-- content 3 -->
+            <div class="main-post-content">
+                <div class="head-post">
+                    <div class="head-post-icon">
+                        <div class="line-blue online-active">
+                            <div class="icon-user-friend">
+                                <img src="./images/346346.jpeg" alt="icon-user">
+                            </div>
+                        </div>
+                        <div class="con-name-detail">
+                            <div class="name-user-post">
+                                <a href="#"><span>Pozzible</span></a>
+                            </div>
+                            <div class="detail-post-head">
+                                <a href="#">6 ชม.</a>
+                                <span> · </span>
+                                <!-- <a class="location-post" href="#">6 ชม.</a>
+                                <span class="location-post"> · </span> -->
+                                <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor" title="แชร์กับ เพื่อนของ Thanapat" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: rgb(118, 121, 125);"><title>แชร์กับ เพื่อนของ Thanapat</title><g fill-rule="evenodd" transform="translate(-448 -544)"><path d="M459.75 551c-1.24 0-2.25-1.121-2.25-2.5 0-1.542.863-2.5 2.25-2.5s2.25.958 2.25 2.5c0 1.379-1.01 2.5-2.25 2.5m.692 1h-1.384c-.105 0-.21.005-.312.014a.3.3 0 0 0-.186.509 5.03 5.03 0 0 1 1.44 3.53v1.147a.3.3 0 0 0 .3.3h2.015c.929 0 1.685-.756 1.685-1.685v-.257a3.562 3.562 0 0 0-3.558-3.558m-3.032 6.5h-7.82c-.877 0-1.59-.714-1.59-1.59v-.857a4.057 4.057 0 0 1 4.053-4.053h2.894a4.057 4.057 0 0 1 4.053 4.053v.856c0 .877-.713 1.591-1.59 1.591m-3.91-7.5c-1.379 0-2.5-1.346-2.5-3 0-1.879.935-3 2.5-3s2.5 1.121 2.5 3c0 1.654-1.121 3-2.5 3"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="head-close">
+                        <div class="etc-svg-head">     
+                            <svg viewBox="0 0 20 20" width="36" height="36" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: #888a90;"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg>
+                        </div>
+                        <a href="#">
+                            <i class="x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/Yyc0dvqDgn-.png?_nc_eui2=AeEuA2Oh7a0WoxSF_MqxOTRf55FqzhOPCPXnkWrOE48I9ZsEmJWKBptz5ENPZGlDxsmteEthSHb4XY4cyayoX21_&quot;); background-position: 0px -473px; background-size: 25px 957px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="caption-post">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum neque non at natus enim tenetur suscipit eos, repudiandae ab ipsa ipsum reiciendis nobis, mollitia, rem accusantium doloremque asperiores quidem minus.</p>
+                </div>
+                <div class="img-post-content">
+                    <div class="img-post-style-1">
+                        <img src="https://cdn.pixabay.com/photo/2024/03/18/10/50/ai-generated-8640895_1280.jpg" alt="Developer">
+                    </div>
+                </div>
+                <div class="icon-sticker">
+                    <div class="icon-sticker-left">
+                        <div class="sticker-like-love">
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.5'/%3E%3Cpath d='M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.992 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z' fill='%23fff'/%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(90 .0005 8) scale(7.99958)'%3E%3Cstop offset='.5618' stop-color='%230866FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%230866FF' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5257 10.9237) scale(10.1818)'%3E%3Cstop offset='.3143' stop-color='%2302ADFC'/%3E%3Cstop offset='1' stop-color='%2302ADFC' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3989' y1='2.3999' x2='13.5983' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2302ADFC'/%3E%3Cstop offset='.5' stop-color='%230866FF'/%3E%3Cstop offset='1' stop-color='%232B7EFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9963 8c0 4.4179-3.5811 7.9993-7.9986 7.9993-4.4176 0-7.9987-3.5814-7.9987-7.9992 0-4.4179 3.5811-7.9992 7.9987-7.9992 4.4175 0 7.9986 3.5813 7.9986 7.9992Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M7.9996 5.9081c-.3528-.8845-1.1936-1.507-2.1748-1.507-1.4323 0-2.4254 1.328-2.4254 2.6797 0 2.2718 2.3938 4.0094 4.0816 5.1589.3168.2157.7205.2157 1.0373 0 1.6878-1.1495 4.0815-2.8871 4.0815-5.159 0-1.3517-.993-2.6796-2.4254-2.6796-.9811 0-1.822.6225-2.1748 1.507Z' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23E11731' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23E11731' stop-opacity='.1'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3986' y1='2.4007' x2='13.5975' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FF74AE'/%3E%3Cstop offset='.5001' stop-color='%23FA2E3E'/%3E%3Cstop offset='1' stop-color='%23FF5758'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.001.0009h15.9992v15.9984H-.001z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9972 7.9996c0 4.418-3.5815 7.9996-7.9996 7.9996-4.418 0-7.9996-3.5816-7.9996-7.9996S3.5796 0 7.9976 0c4.4181 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M15.9972 7.9996c0 4.418-3.5815 7.9996-7.9996 7.9996-4.418 0-7.9996-3.5816-7.9996-7.9996S3.5796 0 7.9976 0c4.4181 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.8'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.6144 10.8866c.159-1.8461 1.127-2.887 2.382-2.887 1.2551 0 2.2231 1.0418 2.3822 2.887.1591 1.8461-.7342 3.1127-2.3821 3.1127-1.648 0-2.5412-1.2666-2.3821-3.1127Z' fill='%234B280E'/%3E%3Cellipse cx='11.1978' cy='5.6997' rx='1.3999' ry='1.6999' fill='%231C1C1D'/%3E%3Cellipse cx='4.7979' cy='5.6997' rx='1.3999' ry='1.6999' fill='%231C1C1D'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.3528 3.166a1.4744 1.4744 0 0 0-1.8591-.3279.4.4 0 1 1-.3976-.6941c.9527-.5457 2.1592-.333 2.8678.5056a.4.4 0 0 1-.6111.5163ZM5.4998 2.8381a1.4744 1.4744 0 0 0-1.859.3278.4.4 0 0 1-.6111-.5162c.7085-.8387 1.915-1.0514 2.8677-.5057a.4.4 0 0 1-.3976.6941Z' fill='%23E0761A'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23FF5758' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FF5758' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5262 10.9226) scale(10.1818)'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23FFF287' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3979' y1='2.3999' x2='13.5973' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23F68628'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.002 0h15.9992v15.9992H-.002z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                        </div>
+                        <a href="#">คุณ และ คนอื่นๆ อีก <span>99</span> คน</a>
+                    </div>
+                    <div class="icon-sticker-right">
+                        <a href="#"><span>229</span> ความคิดเห็น</a>
+                        <a href="#">แชร์ <span>15</span> ครั้ง</a>
+                    </div>
+                </div>
+                <div class="buttom-content">
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -739px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">ถูกใจ</span>
+                    </div>
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -550px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">แสดงความคิดเห็น</span>
+                    </div>
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -886px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">แชร์</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- content 4 -->
+            <div class="main-post-content">
+                <div class="head-post">
+                    <div class="head-post-icon">
+                        <div class="online-active">
+                            <div class="icon-user-friend">
+                                <img src="./images/3453453529.jpeg" alt="icon-user">
+                            </div>
+                        </div>
+                        <div class="con-name-detail">
+                            <div class="name-user-post">
+                                <a href="#"><span>Tony stark</span></a>
+                            </div>
+                            <div class="detail-post-head">
+                                <a href="#">18 ชม.</a>
+                                <span> · </span>
+                                <!-- <a class="location-post" href="#">6 ชม.</a>
+                                <span class="location-post"> · </span> -->
+                                <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor" title="แชร์กับ เพื่อนของ Thanapat" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: rgb(118, 121, 125);"><title>แชร์กับ เพื่อนของ Thanapat</title><g fill-rule="evenodd" transform="translate(-448 -544)"><path d="M459.75 551c-1.24 0-2.25-1.121-2.25-2.5 0-1.542.863-2.5 2.25-2.5s2.25.958 2.25 2.5c0 1.379-1.01 2.5-2.25 2.5m.692 1h-1.384c-.105 0-.21.005-.312.014a.3.3 0 0 0-.186.509 5.03 5.03 0 0 1 1.44 3.53v1.147a.3.3 0 0 0 .3.3h2.015c.929 0 1.685-.756 1.685-1.685v-.257a3.562 3.562 0 0 0-3.558-3.558m-3.032 6.5h-7.82c-.877 0-1.59-.714-1.59-1.59v-.857a4.057 4.057 0 0 1 4.053-4.053h2.894a4.057 4.057 0 0 1 4.053 4.053v.856c0 .877-.713 1.591-1.59 1.591m-3.91-7.5c-1.379 0-2.5-1.346-2.5-3 0-1.879.935-3 2.5-3s2.5 1.121 2.5 3c0 1.654-1.121 3-2.5 3"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="head-close">
+                        <div class="etc-svg-head">     
+                            <svg viewBox="0 0 20 20" width="36" height="36" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: #888a90;"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg>
+                        </div>
+                        <a href="#">
+                            <i class="x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/Yyc0dvqDgn-.png?_nc_eui2=AeEuA2Oh7a0WoxSF_MqxOTRf55FqzhOPCPXnkWrOE48I9ZsEmJWKBptz5ENPZGlDxsmteEthSHb4XY4cyayoX21_&quot;); background-position: 0px -473px; background-size: 25px 957px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="caption-post">
+                    <p>เละ</p>
+                </div>
+                <div class="img-post-content">
+                    <div class="img-post-style-1">
+                        <img src="./images/son-heung-min-175942-1x1.jpg.webp" alt="Developer">
+                    </div>
+                </div>
+                <div class="icon-sticker">
+                    <div class="icon-sticker-left">
+                        <div class="sticker-like-love">
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.5'/%3E%3Cpath d='M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.992 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z' fill='%23fff'/%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(90 .0005 8) scale(7.99958)'%3E%3Cstop offset='.5618' stop-color='%230866FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%230866FF' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5257 10.9237) scale(10.1818)'%3E%3Cstop offset='.3143' stop-color='%2302ADFC'/%3E%3Cstop offset='1' stop-color='%2302ADFC' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3989' y1='2.3999' x2='13.5983' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2302ADFC'/%3E%3Cstop offset='.5' stop-color='%230866FF'/%3E%3Cstop offset='1' stop-color='%232B7EFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9963 8c0 4.4179-3.5811 7.9993-7.9986 7.9993-4.4176 0-7.9987-3.5814-7.9987-7.9992 0-4.4179 3.5811-7.9992 7.9987-7.9992 4.4175 0 7.9986 3.5813 7.9986 7.9992Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M7.9996 5.9081c-.3528-.8845-1.1936-1.507-2.1748-1.507-1.4323 0-2.4254 1.328-2.4254 2.6797 0 2.2718 2.3938 4.0094 4.0816 5.1589.3168.2157.7205.2157 1.0373 0 1.6878-1.1495 4.0815-2.8871 4.0815-5.159 0-1.3517-.993-2.6796-2.4254-2.6796-.9811 0-1.822.6225-2.1748 1.507Z' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23E11731' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23E11731' stop-opacity='.1'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3986' y1='2.4007' x2='13.5975' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FF74AE'/%3E%3Cstop offset='.5001' stop-color='%23FA2E3E'/%3E%3Cstop offset='1' stop-color='%23FF5758'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.001.0009h15.9992v15.9984H-.001z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9972 7.9996c0 4.418-3.5815 7.9996-7.9996 7.9996-4.418 0-7.9996-3.5816-7.9996-7.9996S3.5796 0 7.9976 0c4.4181 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M15.9972 7.9996c0 4.418-3.5815 7.9996-7.9996 7.9996-4.418 0-7.9996-3.5816-7.9996-7.9996S3.5796 0 7.9976 0c4.4181 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.8'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.6144 10.8866c.159-1.8461 1.127-2.887 2.382-2.887 1.2551 0 2.2231 1.0418 2.3822 2.887.1591 1.8461-.7342 3.1127-2.3821 3.1127-1.648 0-2.5412-1.2666-2.3821-3.1127Z' fill='%234B280E'/%3E%3Cellipse cx='11.1978' cy='5.6997' rx='1.3999' ry='1.6999' fill='%231C1C1D'/%3E%3Cellipse cx='4.7979' cy='5.6997' rx='1.3999' ry='1.6999' fill='%231C1C1D'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.3528 3.166a1.4744 1.4744 0 0 0-1.8591-.3279.4.4 0 1 1-.3976-.6941c.9527-.5457 2.1592-.333 2.8678.5056a.4.4 0 0 1-.6111.5163ZM5.4998 2.8381a1.4744 1.4744 0 0 0-1.859.3278.4.4 0 0 1-.6111-.5162c.7085-.8387 1.915-1.0514 2.8677-.5057a.4.4 0 0 1-.3976.6941Z' fill='%23E0761A'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23FF5758' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FF5758' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5262 10.9226) scale(10.1818)'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23FFF287' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3979' y1='2.3999' x2='13.5973' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23F68628'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.002 0h15.9992v15.9992H-.002z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                        </div>
+                        <a href="#">คุณ และ คนอื่นๆ อีก <span>342</span> คน</a>
+                    </div>
+                    <div class="icon-sticker-right">
+                        <a href="#"><span>492</span> ความคิดเห็น</a>
+                        <a href="#">แชร์ <span>285</span> ครั้ง</a>
+                    </div>
+                </div>
+                <div class="buttom-content">
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -739px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">ถูกใจ</span>
+                    </div>
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -550px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">แสดงความคิดเห็น</span>
+                    </div>
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -886px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">แชร์</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- content 5 -->
+            <div class="main-post-content">
+                <div class="head-post">
+                    <div class="head-post-icon">
+                        <div class="line-blue online-active">
+                            <div class="icon-user-friend">
+                                <img src="./images/Son-Heung-min01.jpg" alt="icon-user">
+                            </div>
+                        </div>
+                        <div class="con-name-detail">
+                            <div class="name-user-post">
+                                <a href="#"><span>Son Heung min</span></a>
+                                <span><svg viewBox="0 0 12 13" width="12" height="12" fill="currentColor" title="บัญชีที่ตรวจสอบยืนยันแล้ว" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: rgb(8, 102, 255);"><title>บัญชีที่ตรวจสอบยืนยันแล้ว</title><g fill-rule="evenodd" transform="translate(-98 -917)"><path d="m106.853 922.354-3.5 3.5a.499.499 0 0 1-.706 0l-1.5-1.5a.5.5 0 1 1 .706-.708l1.147 1.147 3.147-3.147a.5.5 0 1 1 .706.708m3.078 2.295-.589-1.149.588-1.15a.633.633 0 0 0-.219-.82l-1.085-.7-.065-1.287a.627.627 0 0 0-.6-.603l-1.29-.066-.703-1.087a.636.636 0 0 0-.82-.217l-1.148.588-1.15-.588a.631.631 0 0 0-.82.22l-.701 1.085-1.289.065a.626.626 0 0 0-.6.6l-.066 1.29-1.088.702a.634.634 0 0 0-.216.82l.588 1.149-.588 1.15a.632.632 0 0 0 .219.819l1.085.701.065 1.286c.014.33.274.59.6.604l1.29.065.703 1.088c.177.27.53.362.82.216l1.148-.588 1.15.589a.629.629 0 0 0 .82-.22l.701-1.085 1.286-.064a.627.627 0 0 0 .604-.601l.065-1.29 1.088-.703a.633.633 0 0 0 .216-.819"></path></g></svg></span>
+                            </div>
+                            <div class="detail-post-head">
+                                <a href="#">6 ชม.</a>
+                                <span> · </span>
+                                <!-- <a class="location-post" href="#">6 ชม.</a>
+                                <span class="location-post"> · </span> -->
+                                <svg viewBox="0 0 16 16" width="12" height="12" fill="currentColor" title="แชร์กับ เพื่อนของ Thanapat" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: rgb(118, 121, 125);"><title>แชร์กับ เพื่อนของ Thanapat</title><g fill-rule="evenodd" transform="translate(-448 -544)"><path d="M459.75 551c-1.24 0-2.25-1.121-2.25-2.5 0-1.542.863-2.5 2.25-2.5s2.25.958 2.25 2.5c0 1.379-1.01 2.5-2.25 2.5m.692 1h-1.384c-.105 0-.21.005-.312.014a.3.3 0 0 0-.186.509 5.03 5.03 0 0 1 1.44 3.53v1.147a.3.3 0 0 0 .3.3h2.015c.929 0 1.685-.756 1.685-1.685v-.257a3.562 3.562 0 0 0-3.558-3.558m-3.032 6.5h-7.82c-.877 0-1.59-.714-1.59-1.59v-.857a4.057 4.057 0 0 1 4.053-4.053h2.894a4.057 4.057 0 0 1 4.053 4.053v.856c0 .877-.713 1.591-1.59 1.591m-3.91-7.5c-1.379 0-2.5-1.346-2.5-3 0-1.879.935-3 2.5-3s2.5 1.121 2.5 3c0 1.654-1.121 3-2.5 3"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="head-close">
+                        <div class="etc-svg-head">     
+                            <svg viewBox="0 0 20 20" width="36" height="36" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="color: #888a90;"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg>
+                        </div>
+                        <a href="#">
+                            <i class="x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yl/r/Yyc0dvqDgn-.png?_nc_eui2=AeEuA2Oh7a0WoxSF_MqxOTRf55FqzhOPCPXnkWrOE48I9ZsEmJWKBptz5ENPZGlDxsmteEthSHb4XY4cyayoX21_&quot;); background-position: 0px -473px; background-size: 25px 957px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="caption-post">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum neque non at natus enim tenetur suscipit eos, repudiandae ab ipsa ipsum reiciendis nobis, mollitia, rem accusantium doloremque.</p>
+                </div>
+                <div class="img-post-content">
+                    <div class="img-post-style-1">
+                        <img src="./images/son-heung-min-175942-1x1.jpg.webp" alt="Developer">
+                    </div>
+                </div>
+                <div class="icon-sticker">
+                    <div class="icon-sticker-left">
+                        <div class="sticker-like-love">
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M16.0001 7.9996c0 4.418-3.5815 7.9996-7.9995 7.9996S.001 12.4176.001 7.9996 3.5825 0 8.0006 0C12.4186 0 16 3.5815 16 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.5'/%3E%3Cpath d='M7.3014 3.8662a.6974.6974 0 0 1 .6974-.6977c.6742 0 1.2207.5465 1.2207 1.2206v1.7464a.101.101 0 0 0 .101.101h1.7953c.992 0 1.7232.9273 1.4917 1.892l-.4572 1.9047a2.301 2.301 0 0 1-2.2374 1.764H6.9185a.5752.5752 0 0 1-.5752-.5752V7.7384c0-.4168.097-.8278.2834-1.2005l.2856-.5712a3.6878 3.6878 0 0 0 .3893-1.6509l-.0002-.4496ZM4.367 7a.767.767 0 0 0-.7669.767v3.2598a.767.767 0 0 0 .767.767h.767a.3835.3835 0 0 0 .3835-.3835V7.3835A.3835.3835 0 0 0 5.134 7h-.767Z' fill='%23fff'/%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(90 .0005 8) scale(7.99958)'%3E%3Cstop offset='.5618' stop-color='%230866FF' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%230866FF' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5257 10.9237) scale(10.1818)'%3E%3Cstop offset='.3143' stop-color='%2302ADFC'/%3E%3Cstop offset='1' stop-color='%2302ADFC' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3989' y1='2.3999' x2='13.5983' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%2302ADFC'/%3E%3Cstop offset='.5' stop-color='%230866FF'/%3E%3Cstop offset='1' stop-color='%232B7EFF'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9963 8c0 4.4179-3.5811 7.9993-7.9986 7.9993-4.4176 0-7.9987-3.5814-7.9987-7.9992 0-4.4179 3.5811-7.9992 7.9987-7.9992 4.4175 0 7.9986 3.5813 7.9986 7.9992Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M7.9996 5.9081c-.3528-.8845-1.1936-1.507-2.1748-1.507-1.4323 0-2.4254 1.328-2.4254 2.6797 0 2.2718 2.3938 4.0094 4.0816 5.1589.3168.2157.7205.2157 1.0373 0 1.6878-1.1495 4.0815-2.8871 4.0815-5.159 0-1.3517-.993-2.6796-2.4254-2.6796-.9811 0-1.822.6225-2.1748 1.507Z' fill='%23fff'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23E11731' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23E11731' stop-opacity='.1'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3986' y1='2.4007' x2='13.5975' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FF74AE'/%3E%3Cstop offset='.5001' stop-color='%23FA2E3E'/%3E%3Cstop offset='1' stop-color='%23FF5758'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.001.0009h15.9992v15.9984H-.001z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                            <div class="container-sticker-like">
+                                <img class="x16dsc37" height="18" role="presentation" src="data:image/svg+xml,%3Csvg fill='none' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cg clip-path='url(%23clip0_15251_63610)'%3E%3Cpath d='M15.9972 7.9996c0 4.418-3.5815 7.9996-7.9996 7.9996-4.418 0-7.9996-3.5816-7.9996-7.9996S3.5796 0 7.9976 0c4.4181 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint0_linear_15251_63610)'/%3E%3Cpath d='M15.9973 7.9992c0 4.4178-3.5811 7.9992-7.9987 7.9992C3.5811 15.9984 0 12.417 0 7.9992S3.5811 0 7.9986 0c4.4176 0 7.9987 3.5814 7.9987 7.9992Z' fill='url(%23paint1_radial_15251_63610)'/%3E%3Cpath d='M15.9972 7.9996c0 4.418-3.5815 7.9996-7.9996 7.9996-4.418 0-7.9996-3.5816-7.9996-7.9996S3.5796 0 7.9976 0c4.4181 0 7.9996 3.5815 7.9996 7.9996Z' fill='url(%23paint2_radial_15251_63610)' fill-opacity='.8'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M5.6144 10.8866c.159-1.8461 1.127-2.887 2.382-2.887 1.2551 0 2.2231 1.0418 2.3822 2.887.1591 1.8461-.7342 3.1127-2.3821 3.1127-1.648 0-2.5412-1.2666-2.3821-3.1127Z' fill='%234B280E'/%3E%3Cellipse cx='11.1978' cy='5.6997' rx='1.3999' ry='1.6999' fill='%231C1C1D'/%3E%3Cellipse cx='4.7979' cy='5.6997' rx='1.3999' ry='1.6999' fill='%231C1C1D'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M12.3528 3.166a1.4744 1.4744 0 0 0-1.8591-.3279.4.4 0 1 1-.3976-.6941c.9527-.5457 2.1592-.333 2.8678.5056a.4.4 0 0 1-.6111.5163ZM5.4998 2.8381a1.4744 1.4744 0 0 0-1.859.3278.4.4 0 0 1-.6111-.5162c.7085-.8387 1.915-1.0514 2.8677-.5057a.4.4 0 0 1-.3976.6941Z' fill='%23E0761A'/%3E%3C/g%3E%3Cdefs%3E%3CradialGradient id='paint1_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='matrix(0 7.9992 -7.99863 0 7.9986 7.9992)'%3E%3Cstop offset='.5637' stop-color='%23FF5758' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23FF5758' stop-opacity='.1'/%3E%3C/radialGradient%3E%3CradialGradient id='paint2_radial_15251_63610' cx='0' cy='0' r='1' gradientUnits='userSpaceOnUse' gradientTransform='rotate(45 -4.5262 10.9226) scale(10.1818)'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23FFF287' stop-opacity='0'/%3E%3C/radialGradient%3E%3ClinearGradient id='paint0_linear_15251_63610' x1='2.3979' y1='2.3999' x2='13.5973' y2='13.5993' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23FFF287'/%3E%3Cstop offset='1' stop-color='%23F68628'/%3E%3C/linearGradient%3E%3CclipPath id='clip0_15251_63610'%3E%3Cpath fill='%23fff' d='M-.002 0h15.9992v15.9992H-.002z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E" width="18">
+                            </div>
+                        </div>
+                        <a href="#">คุณ และ คนอื่นๆ อีก <span>99</span> คน</a>
+                    </div>
+                    <div class="icon-sticker-right">
+                        <a href="#"><span>229</span> ความคิดเห็น</a>
+                        <a href="#">แชร์ <span>15</span> ครั้ง</a>
+                    </div>
+                </div>
+                <div class="buttom-content">
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -739px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">ถูกใจ</span>
+                    </div>
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -550px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">แสดงความคิดเห็น</span>
+                    </div>
+                    <div class="btn-like-buttom">
+                        <span><i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/yP/r/LWBsVfMracP.png?_nc_eui2=AeE8fYF1sHEsZp-IxpS0KB6jb9UkdQcQ_HVv1SR1BxD8dSN4Nq6-c04T34asB8PcI82Nq33vg3NJlchsodazLQfZ&quot;); background-position: 0px -886px; background-size: 25px 1440px; width: 19px; height: 19px; background-repeat: no-repeat; display: inline-block;"></i></span>
+                        <span class="btn-like-text">แชร์</span>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <aside class="aside-right">
+            <h4>ได้รับการสนับสนุน</h4>
+            <div class="container-sponsor-aside">
+                <div class="sponsor-aside">
+                    <div class="img-sponsor-aside">
+                        <img alt="" class="xz74otr x1lq5wgf xgqcy7u x30kzoy x9jhf4c x1lliihq x193iq5w x4zw9a1" referrerpolicy="origin-when-cross-origin" src="https://scontent.fbkk12-2.fna.fbcdn.net/v/t45.1600-4/421831300_120205415595360319_5955021012908715650_n.jpg?stp=cp0_dst-jpg_p296x100_q75_spS444&amp;_nc_cat=104&amp;ccb=1-7&amp;_nc_sid=5f2048&amp;_nc_eui2=AeEP1HBhUfYu5h2ePJP_F5lcrNyQAi4tW5es3JACLi1blw0wgVElXGeKk_lGwzHgtpSQ-w0lrEvh29xQo3XSy1dj&amp;_nc_ohc=VNZtgqgFFPoAb6fK-OV&amp;_nc_ht=scontent.fbkk12-2.fna&amp;oh=00_AfDqt67zaJ_dYNp8qKITQ3Vr1aDs1_5yWo8cOXv15SCD_A&amp;oe=6616E83C">
+                    </div>
+                    <div class="text-sponsor-aside">
+                        <p>Powerful PM Templates for Excel and Google Sheets. Download Now.</p>
+                        <a href="#">pmsheets.com</a>
+                    </div>
+                </div>
+                <div class="sponsor-aside">
+                    <div class="img-sponsor-aside">
+                        <img alt="" class="xz74otr x1lq5wgf xgqcy7u x30kzoy x9jhf4c x1lliihq x193iq5w x4zw9a1" referrerpolicy="origin-when-cross-origin" src="https://scontent.fbkk13-3.fna.fbcdn.net/v/t45.1600-4/386637641_6506952989688_6791906765099605838_n.png?stp=cp0_dst-jpg_p296x100_q90_spS444&amp;_nc_cat=110&amp;ccb=1-7&amp;_nc_sid=5f2048&amp;_nc_eui2=AeHjuWO3vtXg6yNe21EmRBJm60je6Q0PooXrSN7pDQ-ihREtYNbZWnbBkFzAj1CSSnxI2F9SvlXQU6egTM0BfGn6&amp;_nc_ohc=KxWY4R0Ps6YAb7iYGNV&amp;_nc_ht=scontent.fbkk13-3.fna&amp;oh=00_AfCb5d7S7q3i2uHSjuULDVV-zHW4NM8GrnTJ90o4bxULWg&amp;oe=6616FE99">
+                    </div>
+                    <div class="text-sponsor-aside">
+                        <p>Powerful PM Templates for Excel and Google Sheets. Download Now.</p>
+                        <a href="#">pmsheets.com</a>
+                    </div>
+                </div>
+                <div class="line-bottom"></div>
+            </div>
+            <h4 class="profile-aside-margin-h4">เพจและโปรไฟล์ของคุณ</h4>
+            <div class="page-profile-aside">
+                <div class="container-icon-profile-aside">
+                    <div class="icon-profile-aside">
+                        <img src="./images/logokonjeng.png" alt="KonJeng">
+                    </div>
+                    <div class="h4-profile-aside">
+                        <h4>KonJeng Creative</h4>
+                    </div>
+                </div>
+                <div class="container-icon-profile-aside">
+                    <div class="icon-profile-aside-1">
+                        <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/v3vxb-9Tizu.png?_nc_eui2=AeH9gRjxXmK-qrMvdDjN34aqEEhgTgVXXC4QSGBOBVdcLjD_I6USCTJHSzw-0vGgBXAuvFLK09RbfSXuVbiCbHRI&quot;); background-position: 0px -147px; background-size: 21px 250px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                    </div>
+                    <div class="h4-profile-aside">
+                        <p>2 ข้อความ</p>
+                    </div>
+                </div>
+                <div class="container-icon-profile-aside">
+                    <div class="icon-profile-aside-1">
+                        <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/v3vxb-9Tizu.png?_nc_eui2=AeH9gRjxXmK-qrMvdDjN34aqEEhgTgVXXC4QSGBOBVdcLjD_I6USCTJHSzw-0vGgBXAuvFLK09RbfSXuVbiCbHRI&quot;); background-position: 0px 0px; background-size: 21px 250px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                    </div>
+                    <div class="h4-profile-aside">
+                        <p>เปลี่ยนไปใช้เพจ</p>
+                    </div>
+                </div>
+                <div class="container-icon-profile-aside">
+                    <div class="icon-profile-aside-1">
+                        <i data-visualcompletion="css-img" class="x1b0d499 x1d69dk1" style="background-image: url(&quot;https://static.xx.fbcdn.net/rsrc.php/v3/y5/r/v3vxb-9Tizu.png?_nc_eui2=AeH9gRjxXmK-qrMvdDjN34aqEEhgTgVXXC4QSGBOBVdcLjD_I6USCTJHSzw-0vGgBXAuvFLK09RbfSXuVbiCbHRI&quot;); background-position: 0px -126px; background-size: 21px 250px; width: 20px; height: 20px; background-repeat: no-repeat; display: inline-block;"></i>
+                    </div>
+                    <div class="h4-profile-aside">
+                        <p>สร้างโพสต์โปรโมท</p>
+                    </div>
+                </div>
+            </div>
+            <div class="line-bottom"></div>
+            <div class="contact-aside">
+                <h4 class="profile-aside-margin-h4">ผู้ติดต่อ</h4>
+                <div class="contact-aside-search">
+                    <svg viewBox="0 0 16 16" width="16" height="16" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color: var(--secondary-icon);"><g fill-rule="evenodd" transform="translate(-448 -544)"><g fill-rule="nonzero"><path d="M10.743 2.257a6 6 0 1 1-8.485 8.486 6 6 0 0 1 8.485-8.486zm-1.06 1.06a4.5 4.5 0 1 0-6.365 6.364 4.5 4.5 0 0 0 6.364-6.363z" transform="translate(448 544)"></path><path d="M10.39 8.75a2.94 2.94 0 0 0-.199.432c-.155.417-.23.849-.172 1.284.055.415.232.794.54 1.103a.75.75 0 0 0 1.112-1.004l-.051-.057a.39.39 0 0 1-.114-.24c-.021-.155.014-.356.09-.563.031-.081.06-.145.08-.182l.012-.022a.75.75 0 1 0-1.299-.752z" transform="translate(448 544)"></path><path d="M9.557 11.659c.038-.018.09-.04.15-.064.207-.077.408-.112.562-.092.08.01.143.034.198.077l.041.036a.75.75 0 0 0 1.06-1.06 1.881 1.881 0 0 0-1.103-.54c-.435-.058-.867.018-1.284.175-.189.07-.336.143-.433.2a.75.75 0 0 0 .624 1.356l.066-.027.12-.061z" transform="translate(448 544)"></path><path d="m13.463 15.142-.04-.044-3.574-4.192c-.599-.703.355-1.656 1.058-1.057l4.191 3.574.044.04c.058.059.122.137.182.24.249.425.249.96-.154 1.41l-.057.057c-.45.403-.986.403-1.411.154a1.182 1.182 0 0 1-.24-.182zm.617-.616.444-.444a.31.31 0 0 0-.063-.052c-.093-.055-.263-.055-.35.024l.208.232.207-.206.006.007-.22.257-.026-.024.033-.034.025.027-.257.22-.007-.007zm-.027-.415c-.078.088-.078.257-.023.35a.31.31 0 0 0 .051.063l.205-.204-.233-.209z" transform="translate(448 544)"></path></g></g></svg>
+                    <svg viewBox="0 0 20 20" width="20" height="20" fill="currentColor" class="x19dipnz x1lliihq x1k90msu x2h7rmj x1qfuztq" style="--color: var(--secondary-icon);"><g fill-rule="evenodd" transform="translate(-446 -350)"><path d="M458 360a2 2 0 1 1-4 0 2 2 0 0 1 4 0m6 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0m-12 0a2 2 0 1 1-4 0 2 2 0 0 1 4 0"></path></g></svg>
+                </div>
+            </div>
+            <div class="list-contact">
+                <div class="container-icon-list-contact">
+                    <div class="icon-notification-contact line-blue-contact online-active">
+                        <div class="con-icon-list-contact">
+                            <img src="./images/ball.jpeg" alt="list-contact">
+                        </div>
+                    </div>
+                    <div>
+                        <span>Ball Motionless</span>
+                    </div>
+                </div>
+
+                <div class="container-icon-list-contact">
+                    <div class="icon-notification-contact online-active">
+                        <div class="con-icon-list-contact">
+                            <img src="./images/346346.jpeg" alt="list-contact">
+                        </div>
+                    </div>
+                    <div>
+                        <span>Pozzible</span>
+                    </div>
+                </div>
+
+                <div class="container-icon-list-contact">
+                    <div class="icon-notification-contact online-active">
+                        <div class="con-icon-list-contact">
+                            <img src="./images/jeng.jpeg" alt="list-contact">
+                        </div>
+                    </div>
+                    <div>
+                        <span>KonJeng Creative</span>
+                    </div>
+                </div>
+
+                <div class="container-icon-list-contact">
+                    <div class="icon-notification-contact online-active">
+                        <div class="con-icon-list-contact">
+                            <img src="./images/ACS6346.jpg" alt="ACS6346">
+                        </div>
+                    </div>
+                    <div>
+                        <span>ACS #6346</span>
+                    </div>
+                </div>
+
+                <div class="container-icon-list-contact">
+                    <div class="icon-notification-contact line-blue-contact online-active">
+                        <div class="con-icon-list-contact">
+                            <img src="./images/Son-Heung-min01.jpg" alt="Son-Heung-min">
+                        </div>
+                    </div>
+                    <div>
+                        <span>Son Heung min</span>
+                    </div>
+                </div>
+
+                <div class="container-icon-list-contact">
+                    <div class="icon-notification-contact online-active">
+                        <div class="con-icon-list-contact">
+                            <img src="./images/lionel-messi-celebrates-after-their-sides-third-goal-by-news-photo-1686170172.jpg" alt="Son-Heung-min">
+                        </div>
+                    </div>
+                    <div>
+                        <span>Messi.l</span>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+</body>
+</html>
